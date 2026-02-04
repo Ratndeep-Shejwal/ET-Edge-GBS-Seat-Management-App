@@ -108,7 +108,7 @@ def process_data(df):
 # --- APP LOGIC ---
 
 # 1. LOGO (Centered)
-st.markdown("""<div class="logo-container"><img src="https://et-edge.com/wp-content/uploads/2023/10/ET-Edge-Logo-with-Times-Insignia-Final-02-3-3-1.png" width="220"></div>""", unsafe_allow_html=True)
+st.markdown("""<div class="logo-container"><img src="https://et-edge.com/wp-content/uploads/2026/02/ET-Edge-Logo-with-Times-Insignia-Final-01-1-1.png" width="220"></div>""", unsafe_allow_html=True)
 
 if 'data' not in st.session_state: st.session_state.data = None
 
@@ -168,4 +168,5 @@ else:
             hide_index=True
         )
     else:
+
         st.warning("No matches found.")
